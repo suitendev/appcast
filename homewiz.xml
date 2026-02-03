@@ -31,8 +31,10 @@
       <!--
         PENTING: Jangan tambahkan <sparkle:criticalUpdate /> di sini
         Karena force update dihandle oleh minAppVersion di app
-
       -->
+      <sparkle:tags>
+        <sparkle:criticalUpdate />
+      </sparkle:tags>
 
       <enclosure
         url="https://play.google.com/store/apps/details?id=com.homewiz.homewizz"
