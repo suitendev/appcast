@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Homewiz App Updates</title>
+    <description>Appcast feed untuk update aplikasi Homewiz</description>
+    <language>id</language>
+
+    <!-- ============ ANDROID RELEASE ============ -->
+    <item>
+      <title>Homewiz 1.4.6</title>
+      <description>
+        <![CDATA[
+          <h3>What's New in 1.4.6</h3>
+          <ul>
+            <li>Perbaikan bug notifikasi paket</li>
+            <li>Peningkatan performa aplikasi</li>
+            <li>Icon baru Chinese New Year 2026</li>
+            <li>Perbaikan tampilan worktrack</li>
+          </ul>
+          <br/>
+          <p><strong>Catatan:</strong> Pengguna dengan versi di bawah 1.4.0 harus melakukan update.</p>
+        ]]>
+      </description>
+      <pubDate>Mon, 03 Feb 2026 10:00:00 +0700</pubDate>
+
+      <!-- Version terbaru di Play Store -->
+      <sparkle:version>1.4.6</sparkle:version>
+      <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
+      <sparkle:os>android</sparkle:os>
+
+      <!--
+        PENTING: Jangan tambahkan <sparkle:criticalUpdate /> di sini
+        Karena force update dihandle oleh minAppVersion di app
+
+      -->
+
+      <enclosure
+        url="https://play.google.com/store/apps/details?id=com.homewiz.homewizz"
+        sparkle:version="1.4.6"
+        sparkle:os="android"
+      />
+    </item>
+
+    <!-- ============ iOS RELEASE ============ -->
+    <!--
+    <item>
+      <title>Homewiz 1.4.0</title>
+      <description>
+        <![CDATA[
+          <h3>What's New in 1.4.0</h3>
+          <ul>
+            <li>Perbaikan bug notifikasi paket</li>
+            <li>Peningkatan performa aplikasi</li>
+            <li>Icon baru Chinese New Year 2026</li>
+          </ul>
+        ]]>
+      </description>
+      <pubDate>Mon, 03 Feb 2026 10:00:00 +0700</pubDate>
+
+      <sparkle:version>1.4.0</sparkle:version>
+      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <sparkle:os>ios</sparkle:os>
+
+      <enclosure
+        url="https://apps.apple.com/id/app/homewiz/id6752974478"
+        sparkle:version="1.4.0"
+        sparkle:os="ios"
+      />
+    </item>
+    -->
+
+  </channel>
+</rss>
